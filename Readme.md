@@ -16,7 +16,9 @@ Quantidade de passageiros computados em um determinado mês e ano.
 
 * Há tanto um padrão de crescimento global, quanto um outro padrão que se repete anualmente.
 
-[graph_temporal_dataset]
+<div align="center">
+  <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph_temporal_dataset.png?raw=true"/>
+</div>
 
 * Os dados foram escalonados para serem melhor interpretados pelo modelo posteriormente.
 
