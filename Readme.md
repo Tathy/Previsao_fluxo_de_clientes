@@ -21,6 +21,33 @@ Quantidade de passageiros computados em um determinado mês e ano.
 </div>
 
 * Os dados foram escalonados para serem melhor interpretados pelo modelo posteriormente.
+## Regressão Linear
+
+* O modelo utilizando Regressão Linear gerou uma reta crescente que acompanha o aumento gradativo de clientes do aeroporto, ano após ano.
+
+* Entretanto, apenas com o modelo linear não é possível representar o padrão de picos anuais. É necessário um modelo mais complexo.
+
+* Como os dados são escalonados, é necessário fazer uma transformação inversa para voltar à escala de mundo real.
+
+<div align="center">
+  <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph2_real_x_predito.png?raw=true"/>
+</div>
+
+* Na predição com os dados do conjunto de teste a reta seguiu a mesma tendência do treino.
+
+<div align="center">
+  <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph3_real_x_predito_test.png?raw=true"/>
+</div>
+
+## Ativação Sigmoid
+
+* Função não-linear, para tentar ensinar ao modelo os padrões dos dados.
+
+* Apesar do modelo estar se tornando mais complexo, a perda estava aumentando.
+
+<div align="center">
+  <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph4_sigmoid.png?raw=true"/>
+</div>
 
 ## Referências 
 
