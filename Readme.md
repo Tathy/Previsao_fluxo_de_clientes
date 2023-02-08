@@ -12,15 +12,18 @@ O projeto consiste em uma previsão sobre o fluxo de clientes em um aeroporto fi
 
 Quantidade de passageiros computados em um determinado mês e ano.
 
+
 ## Pré-processamento
 
 * Há tanto um padrão de crescimento global, quanto um outro padrão que se repete anualmente.
+
+* Os dados foram escalonados para serem melhor interpretados pelo modelo posteriormente.
 
 <div align="center">
   <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph_temporal_dataset.png?raw=true"/>
 </div>
 
-* Os dados foram escalonados para serem melhor interpretados pelo modelo posteriormente.
+
 ## Regressão Linear
 
 * O modelo utilizando Regressão Linear gerou uma reta crescente que acompanha o aumento gradativo de clientes do aeroporto, ano após ano.
@@ -39,6 +42,7 @@ Quantidade de passageiros computados em um determinado mês e ano.
   <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph3_real_x_predito_test.png?raw=true"/>
 </div>
 
+
 ## Ativação Sigmoid
 
 * Função não-linear, para tentar ensinar ao modelo os padrões dos dados.
@@ -48,6 +52,7 @@ Quantidade de passageiros computados em um determinado mês e ano.
 <div align="center">
   <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph4_sigmoid.png?raw=true"/>
 </div>
+
 
 ## Utilizando histórico de quantidade de passageiros
 
@@ -62,6 +67,8 @@ Quantidade de passageiros computados em um determinado mês e ano.
 <div align="center">
   <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph6_historico4.png?raw=true"/>
 </div>
+
+
 
 ## Referências 
 
