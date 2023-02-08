@@ -49,6 +49,20 @@ Quantidade de passageiros computados em um determinado mês e ano.
   <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph4_sigmoid.png?raw=true"/>
 </div>
 
+## Utilizando histórico de quantidade de passageiros
+
+* Os dois modelos seguintes foram treinado apenas com o histórico de passageiros. 
+
+* Os modelos conseguiram aprender sobre o padrão que se repete ao longo dos meses, além da tendência global de aumento no número de passageiros.
+
+<div align="center">
+  <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph5_historico1.png?raw=true"/>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Tathy/Previsao_fluxo_de_clientes/blob/main/imgs/graph6_historico4.png?raw=true"/>
+</div>
+
 ## Referências 
 
 * Estudo desenvolvido acompanhando o curso [Deep Learning: previsão com Keras](https://cursos.alura.com.br/course/deep-learning-previsao-keras), da Alura.
