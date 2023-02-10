@@ -73,5 +73,3 @@ Quantidade de passageiros computados em um determinado mês e ano.
 ## Referências 
 
 * Estudo desenvolvido acompanhando o curso [Deep Learning: previsão com Keras](https://cursos.alura.com.br/course/deep-learning-previsao-keras), da Alura.
-
-:seedling:
