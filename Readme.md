@@ -6,6 +6,8 @@
 
 O projeto consiste em uma previsão sobre o fluxo de clientes em um aeroporto fictício, com base nos padrões presentes em uma Série Temporal. Este tipo de planejamento futuro pode ser útil para escolher o momento certo para expansão de um negócio, saber quando a demanda de matéria prima e mão de obra será maior, quando fazer uma promoção ou captação ativa de clientes, e afins.
 
+* Séries temporais e utilização de dados históricos.
+
 #### Dataset 
 
 [Material do curso (referência)](https://raw.githubusercontent.com/alura-cursos/deeptime/aula1/Passageiros.csv) 
